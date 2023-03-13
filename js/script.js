@@ -3,7 +3,8 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
-            message: 'Esercizio!'
+            message: 'Esercizio!',
+            source: 'ciao.gif'
         }
     }
 }).mount('#app')
